@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "LeoMux",
+    "slug": "leomux",
+    "scheme": "leomux",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/images/icon.png",
+    "android": {
+      "package": "com.livhappierapps.leomux",
+      "permissions": [
+        "INTERNET",
+        "android.permission.HIDE_OVERLAY_WINDOWS"
+      ],
+      "allowBackup": false
+    },
+    "ios": {
+      "bundleIdentifier": "com.livhappierapps.leomux",
+      "supportsTablet": false
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "scaffold": true
+    }
+  }
+}
